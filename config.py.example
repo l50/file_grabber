@@ -1,0 +1,6 @@
+site = 'http://targetsite.com'
+download_uri = '/file_download.php?file_id='
+login_page = site + '/login.php'
+creds_file = 'auth/user_pass.txt.example'
+downloads_folder = 'downloads/'
+n = 10
