@@ -27,11 +27,11 @@ class FileGrab(object):
 
     def connect_to_site(self, account):
         """ Connect to the website specified in the login_page instance variable.
-        
+
         :type account: tuple
         :param account: username and password to use for authentication
-       
-       :return session that comes from successfully authenticating to the site
+
+        :return session that comes from successfully authenticating to the site
         """
         payload = {
             'username': account[0],
